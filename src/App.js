@@ -5,22 +5,22 @@ import Products from './Products.js';
 import { Button } from 'react-bootstrap';
 import Rating from './Rating.js';
 import JumboTronComponent from './JumboTronComponent';
+import UserForm from './UserForm.js';
+import GitHub from './GitHub.js';
 
 
 
 class App extends Component {
   render() {
-    const isValid = true;
     return (
       <div>
-        <Products />
-        <Button variant="primary" disabled={!isValid}>Default</Button>
-        <JumboTronComponent />
+        <UserForm/>
       </div>
     );
   }
 }
-
+  
 export default App;
+
 
 
