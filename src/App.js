@@ -7,20 +7,19 @@ import Rating from './Rating.js';
 import JumboTronComponent from './JumboTronComponent';
 import UserForm from './UserForm.js';
 import GitHub from './GitHub.js';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 
 
-class App extends Component {
-  render() {
+class App extends Component { 
+      
+  render() {        
     return (
       <div>
-        <UserForm/>
+        <GitHub />                        
       </div>
     );
   }
 }
-  
+
 export default App;
-
-
-
